@@ -1,3 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #F6EA8C;
+}
+
 .bg-light {
     background: rgba(70, 70, 70, 0.9) !important;
+}
+
+.nav-link {
+    margin-left: 8.5em;
+    color: white !important;
+}
+
+#logo {
+    margin: auto;
+    padding: 3em;
+}
+
+h1 {
+    margin-left: 2em;
+    padding: 1.5rem;
+    font-size: 48px;
+    color: #492540;
+}
+
+.box {
+    width: 50%;
+    margin-left: 2em;
+    border: #492540 solid;
+}
+
+.profile-text {
+    margin: 3em;
+    display: flex;
 }
