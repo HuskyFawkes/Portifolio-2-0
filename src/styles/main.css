@@ -3,6 +3,7 @@
 body {
     font-family: 'Rajdhani', sans-serif;
     background-color: #F6EA8C;
+    color: #492540;
 }
 
 .bg-light {
@@ -36,3 +37,44 @@ h1 {
     margin: 3em;
     display: flex;
 }
+
+.profile {
+    font-size: 20px; 
+    padding: 2em;
+}
+
+.services {
+    display: block;
+}
+
+h2 {
+    font-size: 48px;
+    margin-left: 1.1em;
+}
+
+h3 {
+    margin-left: 2em;
+}
+
+.services-cards {
+    margin-bottom: 5em;
+    display: flex;
+    text-align: center;
+}
+
+.card {
+    background: none;
+    border: none;
+    margin: auto;
+    margin-top: 0;
+}
+
+.card-img-top {
+    width: 50%;
+    margin-left: 4em;
+}
+
+.xp-grid {
+    padding: 4em;
+}
+
