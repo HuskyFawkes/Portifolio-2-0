@@ -1,5 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+html {
+    width: 100%;
+}
+
 body {
     font-family: 'Rajdhani', sans-serif;
     background-color: #F6EA8C;
