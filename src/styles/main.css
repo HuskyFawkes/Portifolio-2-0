@@ -78,3 +78,10 @@ h3 {
     padding: 4em;
 }
 
+.col {
+    max-width: 20%;
+    margin: auto;
+    padding: 2em;
+    align-items: center;
+}
+
