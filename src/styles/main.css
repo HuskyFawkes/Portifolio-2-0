@@ -146,3 +146,11 @@ svg {
     background: none;
     border: none;
 }
+
+footer {
+    background-color:#492540;
+}
+
+.desclaimer{
+    text-align: center;
+}
