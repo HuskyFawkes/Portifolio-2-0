@@ -20,6 +20,10 @@ body {
     color: white !important;
 }
 
+.container-fluid {
+    margin-top: 3em;
+}
+
 #logo {
     margin: auto;
     padding: 3em;
@@ -46,6 +50,7 @@ h1 {
 .profile {
     font-size: 20px; 
     padding: 2em;
+    color: black;
 }
 
 .services {
@@ -90,3 +95,54 @@ h3 {
     align-items: center;
 }
 
+.xp-profile {
+    padding: 3em;
+}
+
+.download-seccion {
+    text-align: center;
+    padding: 2em;
+} 
+
+.btn-outline-warning {
+    width: 25%;
+    margin: 0 auto;
+    font-size: 24px;
+    border-radius: 0px;
+    color: #F26D5B;
+    border-color: #F26D5B;
+}
+
+.btn-outline-warning:hover{
+    color: #FFFFFF;
+    background-color: #F26D5B;
+    border-color: #F26D5B;
+}
+
+.phone {
+    padding: 0 3em;
+    font-size: 24px;
+}
+
+.contact-icons {
+    max-width: 80%;
+    height: 15em;
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-text {
+    max-width: 100%;
+    margin: 0;
+    padding: 1em;
+}
+
+svg {
+    margin-left: 4em;
+}
+
+#myBtn {
+    float: right;
+    background: none;
+    border: none;
+}
