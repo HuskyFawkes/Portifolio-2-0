@@ -1,12 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
 
 html {
     width: 100%;
 }
 
 body {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #F6EA8C;
     color: #492540;
 }
@@ -153,9 +153,17 @@ footer {
 
 .desclaimer{
     text-align: center;
+    justify-content: space-evenly;
 }
 
 .social-media {
     width: 25px;
     height: auto;
+}
+
+.col-md-12 ul {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 0px 25em;
 }
