@@ -11,31 +11,31 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <div class="container-fluid" style="margin-top: 0; background-image: url(img/png/pexels-fauxels-3184460\ 1.png);">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                <a class="nav-link" href="#">Perfil</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Serviços</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Trabalhos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                </li>
-            </ul>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="#profile">Perfil</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#services">Serviços</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#experience">Experiencia</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#works">Trabalhos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" style="margin-top: -5em; background-image: url(img/png/pexels-fauxels-3184460\ 1.png);">
         <img id="logo" src="img/svg/LogoRodrigo.svg" alt="Logo Dark">
         <h1>
             Olá Meu nome é
@@ -49,9 +49,9 @@
             Eu construo coisas para a<br> internet e mais outras paradas 
         </h1>
     </div>
-    <div class="container-fluid">
+    <div id="profile" class="container-fluid">
         <div class="container profile-text" style="background-color: #F1D202;">
-            <img src="img/png/Rodrigo3Pop 1.png" alt="perfil pic">
+            <img id="profile-pic" src="img/png/Rodrigo3Pop 1.png" alt="perfil pic">
             <p class="profile">
                 Hey! tudo bem? Meu nome é Rodrigo Alano e atualmente sou estudante de Design de Produto na UEMG  
                 no segundo periodo, estou na minha terceira graduação. Gosto muito de trabalhar com desenvolvimento front-end, 
@@ -61,12 +61,12 @@
             </p>
         </div>
     </div>
-    <div class="container-fluid">
+    <div id="services" class="container-fluid">
         <div class="container services">
             <h2>
                 Serviços
             </h2>
-            <img src="img/png/square.png" alt="squares-layer" style="float: right; margin-bottom: 4em;">
+            <img src="img/png/square.png" alt="squares-layer" style=" width: 10%; float: right; margin: -4em 2em 3em;">
             <h3>
                 O que posso fazer?
             </h3>
@@ -92,7 +92,7 @@
             </div>
         </div>    
     </div>
-    <div class="container-fluid">
+    <div id="experience" class="container-fluid">
         <div class="container">
             <h2>
                 Experiencia
@@ -138,7 +138,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div id="works" class="container-fluid">
         <div class="container">
             <h2>
                 Trabalhos
@@ -178,10 +178,10 @@
                <h3 style="text-align: center; color: white; margin: auto; padding: 1em;">
                    Faça o download para mais informações
                </h3 >
-               <button type="button" class="btn btn-outline-warning">Download</button>
+               <a href="img/Rodrigo Alano 2020-2.pdf" download="Curriculo-Rodrigo-Alano"><button type="button" class="btn btn-outline-warning">Download</button></a>
         </div>
     </div>
-    <div class="container-fluid">
+    <div id="contact" class="container-fluid">
         <div class="container">
             <h2 style="text-align: center; margin: auto;">
                 Dê um oi
@@ -200,10 +200,10 @@
                 <svg width="8%" height="auto" viewBox="0 0 68 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M60.6667 0.333496H7.33335C3.66669 0.333496 0.70002 3.3335 0.70002 7.00016L0.666687 47.0002C0.666687 50.6668 3.66669 53.6668 7.33335 53.6668H60.6667C64.3334 53.6668 67.3334 50.6668 67.3334 47.0002V7.00016C67.3334 3.3335 64.3334 0.333496 60.6667 0.333496ZM60.6667 13.6668L34 30.3335L7.33335 13.6668V7.00016L34 23.6668L60.6667 7.00016V13.6668Z" fill="#492540"/>
                 </svg>
-                <label class="phone" style="font-size: 24px;">rodrigo.alano01@gmail.com</label>
+                <label class="phone" style="font-size: 24px; margin-top: 5em;">rodrigo.alano01@gmail.com</label>
             </div>   
             <div class="col contact-text">
-                <p style="margin-top: 5em; float: right; text-align: right; font-size: 24px;">
+                <p style="float: right; text-align: right; font-size: 24px;">
                 Sempre digo que uma boa conversa sempre resolve as coisas e a comunicação com o cliente é 
                 algo vital que considero nesse negócio, estou disposto a uma ligação uma conversa via 
                 texto, troca de e-mails, video chamadas ou presencial como você achar melhor no final 

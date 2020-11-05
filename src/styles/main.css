@@ -3,6 +3,7 @@
 
 html {
     width: 100%;
+    scroll-behavior: smooth
 }
 
 body {
@@ -26,11 +27,10 @@ body {
 
 #logo {
     margin: auto;
-    padding: 3em;
+    padding: 7em 3em 1em;
 }
 
 h1 {
-    margin-left: 2em;
     padding: 1.5rem;
     font-size: 48px;
     color: #492540;
@@ -40,6 +40,10 @@ h1 {
     width: 50%;
     margin-left: 2em;
     border: #492540 solid;
+}
+
+#profile-pic {
+    width: 250%;
 }
 
 .profile-text {
@@ -149,9 +153,11 @@ svg {
 
 footer {
     background-color:#492540;
+    padding: 2em;
 }
 
 .desclaimer{
+    width: 100%;
     text-align: center;
     justify-content: space-evenly;
 }
