@@ -130,7 +130,7 @@ h3 {
 
 .contact-icons {
     max-width: 80%;
-    height: 15em;
+    height: 5em;
     margin: 0;
     padding: 1em;
 }
@@ -172,4 +172,23 @@ footer {
     margin: auto;
     justify-content: space-evenly;
     padding: 0px 25em;
+}
+
+@media only screen and (max-width:600px) {
+    
+    #containerImg {
+        background-image: url(/src/img/png/pexels-fauxels-3184460\ 1\ Mobile.png);
+    }
+    
+    #logo {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .box {
+        font-size: 48px;
+    }
 }
